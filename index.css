@@ -3,3 +3,78 @@ html {
     padding: 0;
     font-size: 62.5%;
 }
+
+body {
+    margin: 0 auto 0 auto;
+    height: 60vh;
+    max-width: 40vw;
+    background: #1F2937;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+
+}
+
+h1, h2, button, div {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.title {
+    height: 40%;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    font-size: 6rem;
+    text-align: left;
+    font-weight: 800
+}
+span {
+    color: #10B981;
+}
+
+h2 {
+    margin: 0;
+    color: #D5D4D8;
+    font-weight: 400;
+    font-size: 3rem
+}
+
+button {
+    background: #10B981;
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    height: 8%;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+}
+
+#password-container {
+    height: 20%;
+    border-top: 2px solid #2F3E53;
+    display: inherit;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.password-fields {
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    background: #273549;
+    width: 45%;
+    height: 45%;
+    border-radius: 7px;
+
+}
+
+.password-text {
+    color: #55F991;
+    font-size: 2.5rem;
+    text-align: center;
+}
