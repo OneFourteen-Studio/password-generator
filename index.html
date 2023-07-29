@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;400;800&display=swap" rel="stylesheet">
-    <scripts src="index.js" defer></scripts>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <div id="title">
@@ -16,14 +16,14 @@
         <h2>Never use an insecure password again.</h2>
     </div>
     
-    <button>Generate passwords</button>
+    <button id="generate-btn" onclick="generatePassword()">Generate passwords</button>
     
     <div id="password-container">
         <div class="password-fields">
-            <p class="password-text">etbtfiubetibeiudbfo77g</p>
+            <p class="password-text" id="password1"></p>
         </div>
         <div class="password-fields">
-            <p class="password-text">tnfjkdbaljfbakf84y</p>
+            <p class="password-text" id="password2"></p>
         </div>
     </div>
 </body>
